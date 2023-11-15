@@ -11,3 +11,9 @@ Use a method to create a copy of the list
 Use a method to remove one element from the copy of the list.
 
 """
+colors = ["red", "blue", "green", "yellow"]
+colors.extend(["orange", "purple", "pink"])
+colors.append("brown")
+colors.insert(3, "violet")
+colors_copy = colors.copy()
+colors_copy.pop(2) 
